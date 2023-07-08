@@ -145,7 +145,7 @@ select:-webkit-autofill:focus {
   line-height: 22.5px;
 
 }
-.button-big{
+.button--big{
   padding: 18px 40px 16px;
 }
 .button--rectangle{
@@ -229,9 +229,36 @@ select:-webkit-autofill:focus {
 .site-header__login-link:active{
   opacity: 0.6;
 }
+/* hero */
+.hero{
+  padding-top: 92px;
+  padding-bottom: 222px;
+  background-image: url(../img/hero-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 476px) top 30px;
+}
 
-
-
+.hero__inner {
+  max-width: 565px;
+}
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  color: var(--dark-bg);
+}
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 22px;
+  line-height: 36px;
+}
+.button {
+}
+.button--big {
+}
 
 
 
